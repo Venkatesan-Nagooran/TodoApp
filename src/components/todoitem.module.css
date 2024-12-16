@@ -1,0 +1,55 @@
+.item {
+  width: 600px;
+  color: #353935;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-size: 18px;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.deleteButton {
+  float: right;
+  padding: 6px 30px;
+  border: none;
+  background-color: #f7ca18;
+  color: white;
+  margin-top: -3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* .completedCheck {
+  float: left;
+  padding: 2px 20px;
+  border: none;
+  color: white;
+  margin-top: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 7px;
+  margin-right: 10px;
+} */
+.completedCheck {
+  background-color: #fff;
+  margin: 0px;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  float: left;
+  padding: 7px;
+  margin-right: 10px;
+}
