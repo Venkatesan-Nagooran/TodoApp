@@ -15,9 +15,9 @@
 
 .deleteButton {
   float: right;
-  padding: 6px 30px;
+  padding: 6px 33px;
   border: none;
-  background-color: #f7ca18;
+  background-color: #edc84b;
   color: white;
   margin-top: -3px;
   border-radius: 4px;
@@ -41,7 +41,7 @@
 } */
 .completedCheck {
   background-color: #fff;
-  margin: 0px;
+  margin: 3px;
   font: inherit;
   color: currentColor;
   width: 1.15em;

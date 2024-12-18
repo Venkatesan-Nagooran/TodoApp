@@ -22,7 +22,10 @@ export default function TodoItem({ item, todos, setTodos }) {
             onClick={() => handleClick(item.name)}
           />
         </span>
-        <span className={complete}> {item.name}</span>
+        <span className={complete} style={{ overflowWrap: "break-word" }}>
+          {" "}
+          {item.name}
+        </span>
         <span>
           <button
             onClick={() => handleDelete(item)}
