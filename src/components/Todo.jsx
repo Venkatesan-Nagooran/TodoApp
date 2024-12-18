@@ -8,7 +8,7 @@ export default function Todo() {
   const completedTodos = todos.filter((todo) => todo.done === true).length;
   const totalTodos = todos.length;
   return (
-    <div>
+    <div className="float-child_1">
       <Form todos={todos} setTodos={setTodos} />
       <TodoList todos={todos} setTodos={setTodos} />
       <Footer completedTodos={completedTodos} totalTodos={totalTodos} />

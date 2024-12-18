@@ -19,7 +19,11 @@ export default function Form({ todos, setTodos }) {
           placeholder="Enter todo item..."
           type="text"
         />
-        <button className={styles.modernButton} type="submit">
+        <button
+          className={styles.modernButton}
+          disabled={todo.name.length === 0}
+          type="submit"
+        >
           Add
         </button>
       </div>
